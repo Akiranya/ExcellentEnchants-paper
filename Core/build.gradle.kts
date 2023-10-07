@@ -17,9 +17,6 @@ dependencies {
     implementation(project(":V1_19_R3", configuration = "reobf"))
     implementation(project(":V1_20_R1", configuration = "reobf"))
 
-    // Core libs
-    compileOnly(libs.mewcore)
-
     // 3rd party plugins
     compileOnly(libs.papi)
     compileOnly(libs.nochestplus)
@@ -30,4 +27,7 @@ dependencies {
     compileOnly(libs.mythicmobs) {
         isTransitive = false
     }
+
+    // Adds support for custom items from various plugins
+    compileOnly(libs.spatula.item)
 }

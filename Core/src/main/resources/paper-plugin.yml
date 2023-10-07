@@ -14,11 +14,11 @@ dependencies:
       load: OMIT
       required: false
       join-classpath: true
-    NoCheatPlus:
+    PlaceholderAPI:
       load: OMIT
       required: false
       join-classpath: true
-    PlaceholderAPI:
+    NoCheatPlus:
       load: OMIT
       required: false
       join-classpath: true
